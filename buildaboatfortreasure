@@ -1,0 +1,35 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/EnderBey1/enderbeymaterialscript/main/panel"))()
+
+local UI = Material.Load({
+     Title = "EnderBey ROBLOX",
+     Style = 24,
+     SizeX = 500,
+     SizeY = 200,
+     Theme = "Dark"
+})
+
+local Page = UI.New({
+    Title = "Build A Boat For Treasure",
+
+
+})
+
+
+Page.Button({
+    Text = "Build A Boat For Treasure",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EnderBey1/robloxhack/main/buildaboatfortreasurepanel'))()
+
+
+    end
+})
+
+Page.Button({
+    Text = "Build A Boat For Treasure v2",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EnderBey1/robloxhack/main/buildaboatfortreasure2"))()
+
+
+    end
+})
+
