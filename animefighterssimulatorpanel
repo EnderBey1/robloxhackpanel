@@ -1,0 +1,24 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/EnderBey1/enderbeymaterialscript/main/panel"))()
+
+local UI = Material.Load({
+     Title = "EnderBey ROBLOX",
+     Style = 24,
+     SizeX = 500,
+     SizeY = 200,
+     Theme = "Dark"
+})
+
+local Page = UI.New({
+    Title = "Anime Fighters Simulator",
+
+
+})
+
+Page.Button({
+    Text = "Anime Fighters Simulator",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EnderBey1/robloxhack/main/animefighterssimulator", true))()
+
+
+    end
+})
